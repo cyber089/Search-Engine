@@ -50,10 +50,12 @@ async function getmovie(value,pagenr)
 
     });
     
+    next.classList.add("visible");
+    prev.classList.add("visible");
+    
 
 }
-next.classList.toggle("visible");
-    prev.classList.toggle("visible");
+
 
 next.addEventListener("click",() =>{
     if (value==="")return;
